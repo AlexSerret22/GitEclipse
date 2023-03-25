@@ -24,4 +24,4 @@ sexta prueba.
 
 prueba 1, server
 
-prueba 1 server git
+prueba 1 server github 
