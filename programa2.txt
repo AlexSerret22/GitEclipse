@@ -12,4 +12,4 @@ public class SolicitarNombre {
 }
 
 
-prueba para github (esto es para subirlo por primera vez)
+prueba para github (esto es para subirlo por primera vez).
