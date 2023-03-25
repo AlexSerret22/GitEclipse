@@ -1,0 +1,21 @@
+programa de ver fecha
+
+import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
+
+public class VerFecha {
+    public static void main(String[] args) {
+        
+        // Obtener la fecha actual
+        LocalDate fechaActual = LocalDate.now();
+
+        // Definir el formato en el que se mostrará la fecha
+        DateTimeFormatter formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
+
+        // Convertir la fecha a un string con el formato especificado
+        String fechaActualFormateada = fechaActual.format(formato);
+
+        // Mostrar la fecha por consola
+        System.out.println("La fecha actual es: " + fechaActualFormateada);
+    }
+}
