@@ -7,7 +7,7 @@ public class SolicitarNombre {
         System.out.print("Por favor ingrese su nombre: ");
         String nombre = input.nextLine();
         
-        System.out.print("Por favor ingrese su apellido: ");
+        System.out.print("Por favor ingrese su apellido paterno: ");
         String ap = input.nextLine();
         
         System.out.println("Hola " + nombre + "!" +ap);
